@@ -1,4 +1,4 @@
-public class  AntreanRumahSakit implements AntreanADT {
+public class AntreanRumahSakit implements AntreanADT{
     private static class NodeAntrean {
         Pasien pasien;
         NodeAntrean next;
