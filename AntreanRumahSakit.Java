@@ -25,15 +25,15 @@ public class AntreanRumahSakit implements AntreanADT{
     private Pasien sedangDiperiksa;
     private int nomorBerikutnya = 1;
 
-    public void daftarPasien(String nama, String alasan) {
+    public void daftarPasien(String nama, String alasan, String keteranganDarurat) {
         Pasien pasien;
-         if (alasan.equalsIgnoreCase("Darurat")
-                || alasan.equalsIgnoreCase("Lansia")) {
+         if (alasan.equalsIgnoreCase("Darurat")) {
 
             pasien = new PasienPrioritas(
-                nomorBerikutnya, nama, alasan
+                nomorBerikutnya, nama, keteranganDarurat
             );
-
+        }else if (alasan.equalsIgnoreCase("Lansia")) {
+            pasien = new PasienPrioritas(nomorBerikutnya, nama, alasan);
         } else {
             pasien = new Pasien(nomorBerikutnya, nama);
         }

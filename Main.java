@@ -40,6 +40,7 @@ public class Main {
 
                     String jenis = input.nextLine();
                     String alasan;
+                    String keteranganDarurat = "-";
 
                     switch (jenis) {
                         case "2":
@@ -47,6 +48,8 @@ public class Main {
                             break;
                         case "3":
                             alasan = "Darurat";
+                            System.out.print("Masukkan keterangan darurat (mis: Sesak Napas / Kecelakaan): ");
+                            keteranganDarurat = input.nextLine();
                             break;
                         default:
                             alasan = "Biasa";

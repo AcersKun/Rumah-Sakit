@@ -1,4 +1,3 @@
-// Class dasar (superclass) untuk seluruh jenis pasien.
 public class Pasien {
     protected int nomor;
     protected String nama;
@@ -25,9 +24,7 @@ public class Pasien {
     public void setStatus(String status) {
         this.status = status;
     }
-
-    // Nilai lebih kecil berarti prioritas lebih tinggi.
-    // Pasien biasa memiliki prioritas 3.
+    
     public int tingkatPrioritas() {
         return 3;
     }
