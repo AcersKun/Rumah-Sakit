@@ -55,7 +55,7 @@ public class Main {
                             alasan = "Biasa";
                     }
 
-                    sistem.daftarPasien(nama, alasan);
+                    sistem.daftarPasien(nama, alasan, keteranganDarurat);
                     break;
 
                 case 2:
