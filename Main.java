@@ -60,37 +60,37 @@ public class Main {
 
                 case 2:
                     sistem.tampilkanAntrean();
-                    system.out.print("/nTekan enter untuk melanjutkan..");
+                    system.out.print("\nTekan enter untuk melanjutkan..");
                     input.nextLine();
                     break;
 
                 case 3:
                     sistem.panggilPasien();
-                    system.out.print("/nTekan enter untuk melanjutkan..");
+                    system.out.print("\nTekan enter untuk melanjutkan..");
                     input.nextLine();
                     break;
 
                 case 4:
                     sistem.selesaikanPemeriksaan();
-                    system.out.print("/nTekan enter untuk melanjutkan..");
+                    system.out.print("\nTekan enter untuk melanjutkan..");
                     input.nextLine();
                     break;
 
                 case 5:
                     sistem.skipAntrean();
-                    system.out.print("/nTekan enter untuk melanjutkan..");
+                    system.out.print("\nTekan enter untuk melanjutkan..");
                     input.nextLine();
                     break;
 
                 case 6:
                     sistem.tampilkanRiwayat();
-                    system.out.print("/nTekan enter untuk melanjutkan..");
+                    system.out.print("\nTekan enter untuk melanjutkan..");
                     input.nextLine();
                     break;
 
                 case 7:
                     sistem.tampilkanRiwayatMundur();
-                    system.out.print("/nTekan enter untuk melanjutkan..");
+                    system.out.print("\nTekan enter untuk melanjutkan..");
                     input.nextLine();
                     break;
 
